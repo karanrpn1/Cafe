@@ -1,0 +1,165 @@
+.success {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 20px;
+	color: green;
+	font-weight: 700;
+}
+.fail {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 20px;
+	color: red;
+	font-weight: 700;
+}
+.errorClass {
+	border-color: #e2153b;
+}
+.successClass {
+	border-color: #15e215;
+}
+
+.errorTextClass{
+	color: #e2153b;
+}
+.errorClass{
+	border-color: #e2153b;
+}
+.successClass{
+	border-color: #15e215;
+}
+
+.errorMsg {
+    background: red;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+.text_sec_1 {
+    border: 3px solid #ff0000;
+    padding: 12px;
+}
+.top-image-section img {
+	width:100%;
+}
+.errorTextClass {
+    color: #ff0000;
+}
+form#frm select,.mapform select {
+	border-color:#ff0000;
+}
+.removeLeftSpace .col-md-4 {
+    padding-left: 0px;
+}
+
+/* CUSTOM CHECBOX */
+.checkBoxContainer {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /*font-size: 22px;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight:normal;
+}
+.checkBoxContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  top: 0;
+}
+.checkmark {
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px solid #ff0000;
+    border-radius: 2px;
+}
+.checkBoxContainer:hover input ~ .checkmark {
+  /*background-color: #ccc;*/
+}
+.checkBoxContainer input:checked ~ .checkmark {
+  /*background-color: #2196F3;*/
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkBoxContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkBoxContainer .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #ff0000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* CUSTOM RADIO */
+.radioBoxContainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radioBoxContainer input {
+  position: absolute;
+  opacity: 0;
+}
+.radiomark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.radioBoxContainer:hover input ~ .radiomark {
+  background-color: #ccc;
+}
+.radioBoxContainer input:checked ~ .radiomark {
+  background-color: #ff0000;
+}
+.radiomark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.radioBoxContainer input:checked ~ .radiomark:after {
+  display: block;
+}
+.radioBoxContainer .radiomark:after {
+	top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+div#listData tr td {
+    padding: 5px 0px;
+}
+.allCheckedFilters {
+    clear: left;
+}
